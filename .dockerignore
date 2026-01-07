@@ -1,0 +1,16 @@
+.git
+.gitignore
+.env
+.env.local
+.env.*.local
+node_modules
+npm-debug.log
+.next/cache
+.next/static
+.playwright
+e2e
+playwright-report
+coverage
+.vscode
+.idea
+*.md
