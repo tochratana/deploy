@@ -10,7 +10,9 @@ test.describe("Home Page", () => {
     // Check hero section is visible
     const heroTitle = page.getByTestId("hero-title");
     await expect(heroTitle).toBeVisible();
-    await expect(heroTitle).toContainText("Welcome to NextApp");
+    await expect(heroTitle).toContainText(
+      "This text does not exist - intentional failure for SonarQube testing"
+    );
   });
 
   test("should display hero section with CTA buttons", async ({ page }) => {
