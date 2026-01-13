@@ -1,15 +1,4 @@
 export default function Home() {
-
-
-  // const username = "postgres";
-  // const passowrd  = "EreifsF&3";
-  // const port = 5432;
-
-  // const hello = ()=>{
-  //   console.log(username);
-  //   console.log(passowrd);
-  //   console.log(port)
-  // }
   return (
     <div className="w-full">
       {/* Hero Section */}
